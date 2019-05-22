@@ -2,37 +2,48 @@
 
  ## Índice
 
- * [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
+ * [HISTORIA DEL TERROR](#HISTORIA-DEL-TERROR)
+* [Desarrollo del Proyecto](#Desarrollo-del-Proyecto)
+* [Desarrollo](#Desarrollo)
 * [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
 * [Parte obligatoria](#parte-obligatoria)
 * [Consideraciones técnicas](#consideraciones-técnicas)
 
  ***
 
- ## Preámbulo
+ ## HORROR HISTORY
+ Es una aplicación dirigida a los amantes del cine del terror, que pretende brindar una búsqueda especializada de películas dentro de éste género a lo largo de la historia.
 
- Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
 
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
 
- ## Resumen del proyecto
+ <div style="width:100%;height:0;padding-bottom:76%;position:relative;"><iframe src="https://giphy.com/embed/VXUpjaExrrsMU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/terror-freddy-krueger-nightmare-on-elm-street-VXUpjaExrrsMU">via GIPHY</a></p>
 
- Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
+ ## Desarrollo del Proyecto
+
+Se realizó una encuesta para comprender las preferencias de los usuarios en la temática del cine y en específico del género del 
+<img src="https://i.ibb.co/VHxbnzd/Captura-de-pantalla-46.png" alt="Captura-de-pantalla-46" border="0">
+
+<img src="https://i.ibb.co/M1R6qKm/Captura-de-pantalla-49.png" alt="Captura-de-pantalla-49" border="0">
+
+<img src="https://i.ibb.co/hZwRykc/Captura-de-pantalla-51.png" alt="Captura-de-pantalla-51" border="0">
+
+<img src="https://i.ibb.co/5jHXM9C/Captura-de-pantalla-53.png" alt="Captura-de-pantalla-53" border="0">
+
+<img src="https://i.ibb.co/XzXSGRt/Captura-de-pantalla-55.png" alt="Captura-de-pantalla-55" border="0">
+
+<img src="https://i.ibb.co/3SQJsMb/Captura-de-pantalla-57.png" alt="Captura-de-pantalla-57" border="0">
+
+<img src="https://i.ibb.co/pPFHB7z/Captura-de-pantalla-59.png" alt="Captura-de-pantalla-59" border="0">
+
+<img src="https://i.ibb.co/D78ccyp/Captura-de-pantalla-61.png" alt="Captura-de-pantalla-61" border="0">
+
 
  ## Consideraciones generales
 
- * Este proyecto se debe resolver en equipos de hasta 4 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
+ *
+* Se ocupó 
+ la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
+Ademas de la API [TMBD](https://www.themoviedb.org/)
 * Tiempo para completar el reto: 3 días.
 
 
