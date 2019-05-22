@@ -44,14 +44,39 @@
                       </div>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
+                    <input id="text_searched" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0"  type="button">Search</button>
                   </form>
                 </div>
               </nav>
-              
-                
+              <section id="searchview"> 
+                <h3 class="mytitle">Busque una película de Terror por el año de estreno</h3>     
+                <div id="searchbox" class="row">
+              <div class="col s12 m12 l3 xl3">
+                <input type="number" id="year" placeholder="ingrese el año" class="browser-default">
+        </div>
+        <div class="col s12 m12 l3 xl3">
+          <select id="idiom" class="browser-default">
+              <option value="">Seleccione un idioma</option>
+              <option value="en-US">Inglés</option>
+              <option value="es">Español</option>
+              <option value="pt-BR">Portugués</option>                
+          </select>
+      </div>
+      <div class="col s12 m12 l3 xl3">
+      <button id="btnsearch" class="col s12 m12 l3 xl3">Buscar</button>
+      </div>  
                 </section>
+<section>
+    <div id="show_result" class="div-result" style="display:block">
+  <div id="result" class="row"></div>
+  </div>
+</section>
+<!-- <section>
+   <div id="pages"></div>
+</section> -->
+
+
 <script src="main.js"></script>   
 <script src="data.js"></script> 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
