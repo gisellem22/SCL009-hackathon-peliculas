@@ -1,3 +1,34 @@
 body{
     background-color: black;
 }
+.mytitle{
+    color: red;
+    text-align: center;
+}
+.card {
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card:hover,
+.card:focus {
+box-shadow: 0 0.9em 0.9em -0.4em rgb(62, 63, 60);
+transform: translateY(-0.70em);
+border-width:2px;
+border-style:solid;
+}
+.card img {
+
+    width: 140px;
+    height: 210px;
+    align-self: center;
+    margin: 1em;
+  }
+.div-result{
+    margin-top: 15px;
+    margin-left: 60px;
+}
