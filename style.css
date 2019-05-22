@@ -6,13 +6,33 @@ body{
     text-align: center;
 }
 .card {
-    width: 400px;
-    height: 250px;
+    background-color: black;
+    background-image: url(https://wpamelia.com/wp-content/uploads/2019/02/7644.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 310px;
+    height: 270px;
     margin: 10px;
     text-align: center;
     border-radius: 10px;
     margin-right: 10px;
     margin-left: 10px;
+    color: rgb(165, 165, 165);
+}
+.card img {
+    width: 154px;
+    height: 268px;
+    align-self: left;
+    margin:0;
+    border-radius: 10px;
+
+  }
+.card-body{
+    margin-top: 15px;
+    width: 150px;
+    height: 200px;
+    padding: 0px;
 }
 .card:hover,
 .card:focus {
@@ -21,14 +41,6 @@ transform: translateY(-0.70em);
 border-width:2px;
 border-style:solid;
 }
-.card img {
-
-    width: 140px;
-    height: 210px;
-    align-self: center;
-    margin: 1em;
-  }
-.div-result{
-    margin-top: 15px;
-    margin-left: 60px;
-}
+/* .result{
+margin-top: 15px;
+} */
