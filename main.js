@@ -121,7 +121,7 @@ const createCard = (myTitle) => {
         <p><b>País</b>: ${myTitle.Country}</p>
         <p><b>Premios</b>: ${myTitle.Awards}</p>  
         <p><b>Puntuación</b>: ${myTitle.Ratings[0].Value}</p> 
-        <p><b>Website</b>:<a href= "${myTitle.Website}">${myTitle.Website}</a> </p>  
+        <p><b>Website</b>: <a href= "${myTitle.Website}" >${myTitle.Website}</a> </p>  
         <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
