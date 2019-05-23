@@ -17,14 +17,14 @@ showYear.addEventListener("click", () => {
   containerResult.innerHTML = "";
   document.getElementById("year").value = "";
   document.getElementById("idiom_year").value = "";
-  containerYear.style.display = (containerYear.style.display == "none") ? "block" : "none";
+  containerYear.style.display = "block";
   containerTitle.style.display = "none";
 });
 showTitle.addEventListener("click", () => {
   containerResult.innerHTML = "";
   document.getElementById("titles").value = "";
   document.getElementById("year_title").value = "";
-  containerTitle.style.display = (containerTitle.style.display == "none") ? "block" : "none";
+  containerTitle.style.display = "block";
   containerYear.style.display = "none";
 })
 btnSearchYear.addEventListener("click", () => {
