@@ -1,5 +1,7 @@
 <img src="./img/header.png" alt="Captura-de-pantalla-46" border="0">
 
+[Acceder a la aplicación](https://gisellem22.github.io/SCL009-hackathon-peliculas/)
+
 ## Índice
 
  * [HORROR HISTORY](#HISTORIA-DEL-TERROR)
@@ -93,7 +95,7 @@ Agregando un modal o realce al elejir una película previa selección por año o
  Se realizaron test de usuarios con la interfaz en su última etapa.
  <img src="https://i.ibb.co/44GCXHx/Captura-de-pantalla-63.png" alt="Captura-de-pantalla-63" border="0">
  Links de Youtube:
- [Test de Usuario 1](https://youtu.be/E6Z9ih2sy2c)
+[Test de Usuario 1](https://youtu.be/E6Z9ih2sy2c)
 [Test de Usuario 2](https://youtu.be/xoTwuWU2e4o) 
 
  ## Conclusión ##
