@@ -1,6 +1,6 @@
 <img src="./img/header.png" alt="Captura-de-pantalla-46" border="0">
 
-##Índice
+## Índice
 
  * [HORROR HISTORY](#HISTORIA-DEL-TERROR)
  * [Planificación](#Planificación)
@@ -15,10 +15,8 @@
 
  ## HORROR HISTORY
  Es una aplicación dirigida a los amantes del cine del terror, que pretende brindar una búsqueda especializada de películas dentro de éste género a lo largo de la historia.
+ ![home](img/home.jpg) 
 
-
-
- <div style="width:100%;height:0;padding-bottom:76%;position:relative;"><iframe src="https://giphy.com/embed/VXUpjaExrrsMU" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/terror-freddy-krueger-nightmare-on-elm-street-VXUpjaExrrsMU">via GIPHY</a></p>
 
  ## Planificación 
  En éste reto de corta duración se trabajó en squad conformado por:
@@ -70,6 +68,11 @@ Ya más encausadas las ideas agregando búsquedas por título y por idiomas.
 
 Agregando un modal o realce al elejir una película previa selección por año o idioma.<img src="https://i.ibb.co/WW4tJGJ/IMG-20190523-042030.jpg" alt="IMG-20190523-042030" border="0">
 
+## Prototipos de alta fidelidad
+<img src="https://i.ibb.co/sCYZH7K/Whats-App-Image-2019-05-23-at-09-44-22.jpg" alt="Whats-App-Image-2019-05-23-at-09-44-22" border="0">
+
+[Prototipo en Figma](https://www.figma.com/proto/RbnRndq7kTJJ3upzwXmAnPQq/Untitled?node-id=0%3A1&scaling=min-zoom&redirected=1)
+
 ## Historias de Usuarios
  *  **Historia de usuario n°1**
  **Como** mujer 33 años que gusta del cine de terror.
@@ -89,8 +92,9 @@ Agregando un modal o realce al elejir una película previa selección por año o
  ## Test de usuarios ##
  Se realizaron test de usuarios con la interfaz en su última etapa.
  <img src="https://i.ibb.co/44GCXHx/Captura-de-pantalla-63.png" alt="Captura-de-pantalla-63" border="0">
- https://youtu.be/E6Z9ih2sy2c
- https://youtu.be/xoTwuWU2e4o
+ Links de Youtube:
+ [Test de Usuario 1](https://youtu.be/E6Z9ih2sy2c)
+[Test de Usuario 2](https://youtu.be/xoTwuWU2e4o) 
 
  ## Conclusión ##
  El Mundo del cine es muy amplio, genera multiples usuarios, en específico el género del terror con sus subgéneros como slasher, thriller,horror, supervivencia, gore, entre otros tiene muchos adeptos.
