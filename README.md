@@ -1,6 +1,6 @@
-# "Hackathon" de final de _Common Core_, películas
+<img src="./img/header.png" alt="Captura-de-pantalla-46" border="0">
 
- ## Índice
+##Índice
 
  * [HORROR HISTORY](#HISTORIA-DEL-TERROR)
  * [Planificación](#Planificación)
@@ -22,15 +22,15 @@
 
  ## Planificación 
  En éste reto de corta duración se trabajó en squad conformado por:
- * Giselle Machado y Claudia Araya como front-end y Rossana Geroldi como Ux.
+ * Giselle Machado y Claudia Araya como front-end y Rossana Geroldi como UX.
  * Lo primero fue planificar en Trello.
  * Se realizó una encuesta para definir temática y usuarios.
  * Se hicieron prototipos de baja fidelidad.
- * Luego se definieron historias de usuario  
+ * Luego se definieron historias de usuario.
  * En paralelo se  construyó el código y la lógica de la interfaz.
- * Se ocupó la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database) ademas de la API [TMBD](https://www.themoviedb.org/).
+ * Se ocupó la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database) además de la API [TMBD](https://www.themoviedb.org/).
  * Se realizaron test de usuario en la misma interfaz.
- * Se Presentó la interfaz en la feria de Demos.
+ * Se presentará la interfaz en la feria de Demos.
 
  # Desarrollo del Proyecto
  ## Encuesta y estudio de los usuarios
@@ -40,7 +40,7 @@ Se realizó una encuesta para comprender las preferencias de los usuarios en la 
 No se observaron diferencias notorias e cuanto a diversidad de género.
 
 <img src="https://i.ibb.co/M1R6qKm/Captura-de-pantalla-49.png" alt="Captura-de-pantalla-49" border="0">
-Cerca del 40% de la muestra corresponde a personas de entre 22 y 30 años, le sigue un 30% de entre 30 a 45 años y u 15% personas etre 15 y 21 años.
+Cerca del 40% de la muestra corresponde a personas de entre 22 y 30 años, le sigue un 30% de entre 30 a 45 años y un 15% personas etre 15 y 21 años.
 
 <img src="https://i.ibb.co/hZwRykc/Captura-de-pantalla-51.png" alt="Captura-de-pantalla-51" border="0">
 Las opciones más recurrentes a la hora de elejir una película comparten cada una un 33% son el tráiler y el género además de los actores con un 13% de las preferencias.
@@ -73,12 +73,12 @@ Agregando un modal o realce al elejir una película previa selección por año o
 ## Historias de Usuarios
  *  **Historia de usuario n°1**
  **Como** mujer 33 años que gusta del cine de terror.
- **Quiero** buscar películas de terror que se estrenaron e 1999.
+ **Quiero** buscar películas de terror que se estrenaron en 1999.
  **Para** ver una película de terror de moda en mi adolescencia.
 
 * **Historia de usuario n°2**
  **Como** hombre de 38 años fans del cine de terror.
- **Quiero** quiero buscar pelicula de terror por su título "El Exorcista".
+ **Quiero** quiero buscar pelicula de terror por su título, "El Exorcista".
  **Para** ver sus características, como año de estreno, director, actores.
 
  * **Historia de usuario n°3**
