@@ -181,4 +181,3 @@ const createCardOfTitle = (title, year) => {
 `
   containerResult.innerHTML = cardHTML;
 }
-
