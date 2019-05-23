@@ -1,91 +1,112 @@
-# "Hackathon" de final de _Common Core_, películas
+<img src="./img/header.png" alt="Captura-de-pantalla-46" border="0">
 
- ## Índice
+## Índice
 
- * [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
+ * [HORROR HISTORY](#HISTORIA-DEL-TERROR)
+ * [Planificación](#Planificación)
+ * [Desarrollo](#Desarrollo)
+ * [Encuesta y Estudio de Usuario](#encuesta-y)
+ * [Prototipo de baja fidelidad](#prototipo)
+ * [Historias de Usuarios](#historias-usuario)
+ * [Test de Usuarios](#Test-usuario)
+ * [Conclusión](#Conclusión)
 
  ***
 
- ## Preámbulo
-
- Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
-
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
-
- ## Resumen del proyecto
-
- Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
-
- ## Consideraciones generales
-
- * Este proyecto se debe resolver en equipos de hasta 4 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-* Tiempo para completar el reto: 3 días.
+ ## HORROR HISTORY
+ Es una aplicación dirigida a los amantes del cine del terror, que pretende brindar una búsqueda especializada de películas dentro de éste género a lo largo de la historia.
+ ![home](img/home.jpg) 
 
 
- ## Objetivos de aprendizaje
+ ## Planificación 
+ En éste reto de corta duración se trabajó en squad conformado por:
+ * Giselle Machado y Claudia Araya como front-end y Rossana Geroldi como UX.
+ * Lo primero fue planificar en Trello.
+ * Se realizó una encuesta para definir temática y usuarios.
+ * Se hicieron prototipos de baja fidelidad.
+ * Luego se definieron historias de usuario.
+ * En paralelo se  construyó el código y la lógica de la interfaz.
+ * Se ocupó la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database) además de la API [TMBD](https://www.themoviedb.org/).
+ * Se realizaron test de usuario en la misma interfaz.
+ * Se presentará la interfaz en la feria de Demos.
 
- * Enfrentarte a un reto de corta duración en el que pongas en práctica todo
-lo aprendido hasta ahora.
-* Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-personas en un equipo de trabajo, mayor complejidad para: tener un entendimiento
-común, seguir el flujo de trabajo, buscar consensos, etc.
+ # Desarrollo del Proyecto
+ ## Encuesta y estudio de los usuarios
 
- ## Parte Obligatoria
+Se realizó una encuesta para comprender las preferencias de los usuarios en la temática del cine y en específico del género del Terror.
+<img src="https://i.ibb.co/VHxbnzd/Captura-de-pantalla-46.png" alt="Captura-de-pantalla-46" border="0">
+No se observaron diferencias notorias e cuanto a diversidad de género.
 
- * Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-y las inspiraciones utilizadas para definir el producto.
-* Además, deberás detallar en el archivo _readme_, qué hizo cada una en el
-proyecto.
-* El producto deberá presentarse publicado en github pages.
+<img src="https://i.ibb.co/M1R6qKm/Captura-de-pantalla-49.png" alt="Captura-de-pantalla-49" border="0">
+Cerca del 40% de la muestra corresponde a personas de entre 22 y 30 años, le sigue un 30% de entre 30 a 45 años y un 15% personas etre 15 y 21 años.
 
- ## Consideraciones técnicas
+<img src="https://i.ibb.co/hZwRykc/Captura-de-pantalla-51.png" alt="Captura-de-pantalla-51" border="0">
+Las opciones más recurrentes a la hora de elejir una película comparten cada una un 33% son el tráiler y el género además de los actores con un 13% de las preferencias.
 
- * El diseño visual de los componentes es de libre elección de las estudiantes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
-* Deberán usar al menos un framework de css.
+<img src="https://i.ibb.co/5jHXM9C/Captura-de-pantalla-53.png" alt="Captura-de-pantalla-53" border="0">
+Los géneros del cine con mayores preferencias son el terror, la ciencia ficción y la comedia.
+
+<img src="https://i.ibb.co/XzXSGRt/Captura-de-pantalla-55.png" alt="Captura-de-pantalla-55" border="0">
+Elejir una película de terror por sobre otros géneros es una preferencia del 50%, mientras que el 45% lo considera una segunda opción.
+
+<img src="https://i.ibb.co/3SQJsMb/Captura-de-pantalla-57.png" alt="Captura-de-pantalla-57" border="0">
+Dentro de los subgéneros del terror, los que tienen mayor preferencia cercana al 30% cada uno son el horror relacionado a lo paranormal y el de supervivencia relacionado con zomies, virus, etc. Le siguen los subgéneros de sci-fi terror y sobrenatural con un 18%.
 
 
-## Horario
+<img src="https://i.ibb.co/pPFHB7z/Captura-de-pantalla-59.png" alt="Captura-de-pantalla-59" border="0">
+Se repiten titulos como Saw y el Exorcista.
 
-|       |   Jueves          |  Viernes                     |Miércoles                      | Jueves                                |
-|------ | ------------------| ---------------------------- | ----------------------------- | ------------------------------------- |
-| 8:00  |                   |  Daily por squad             |  Daily por squad              | Daily por squad                       |
-| 9:00  |                   |  Hackeo                      |  Hackeo                       | Hackeo/Detalles finales               |         
-| 10:00 |                   |                              |                               | Inscripción de aplicaciones           |
-| 11:00 |                   |                              |                               | Feria de demostraciones               |           
-| 12:00 | Kick off hackaton |                              |                               | Presentación de mejores squads        |
-|>13:00 |Sesión de planificación|                          |                               | Deliberación del jurado               |
-| 20:00 |                   |                              |                               |                                       |
+<img src="https://i.ibb.co/D78ccyp/Captura-de-pantalla-61.png" alt="Captura-de-pantalla-61" border="0">
+El 75% de las preferencias se concentra en desarrollo del cine del terror desde el año 2000 en adelante y un 12% lo hace en el cine previo a 1960.
+En base a éstos resultados se constató que el cine del terror y sus subgéneros tiene bastantes adeptos tanto en décadas anteriores relacionadas al cine clásico, recientes y a la taquilla del momento, por lo que el enfoque hace énfasis al recorrido del terror a través de los años. Además existe público que lo considera como primera opción.
 
-## Tips para la organización de trabajo entre UX y Front end 
+## Prototipos de baja fidelidad
+Nuestro primer boceto basado en la selección del tiempo, pero dejaba fuera otras preferencias de usuario.
+<img src="https://i.ibb.co/QpJt2gG/IMG-20190523-040533.jpg" alt="IMG-20190523-040533" border="0">
+Ya más encausadas las ideas agregando búsquedas por título y por idiomas.
+<img src="https://i.ibb.co/1JwV9gL/IMG-20190523-041538.jpg" alt="IMG-20190523-041538" border="0">
 
-* Las UX y FE entienden en conjunto el reto en el que van a trabajar, se organizan y arman sus primeros bocetos.
-* Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo y a crear componentes atómicos que luego les sea fácil personalizar con CSS y utilizar para crear interfaces más complejas. Además, las FE empiezan también a trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
-* Las UX comparten el prototipo testeado, para que el equipo empiece a personalizar los componentes y a ponerlos en conjunto.
-* Las UX hacen QA y testing con los releases que vayan haciendo las FE.
-* Planifiquen, historias de usuario y definition of done son importantísimos.
-* Usen las ceremonias ágiles para saber en que van como equipo, dailys y retrospectivas diarias son esenciales.
-* Iteren, iteren, iteren.
+Agregando un modal o realce al elejir una película previa selección por año o idioma.<img src="https://i.ibb.co/WW4tJGJ/IMG-20190523-042030.jpg" alt="IMG-20190523-042030" border="0">
 
-## ¿Qué es la Feria de demos?
+## Prototipos de alta fidelidad
+<img src="https://i.ibb.co/sCYZH7K/Whats-App-Image-2019-05-23-at-09-44-22.jpg" alt="Whats-App-Image-2019-05-23-at-09-44-22" border="0">
 
-La feria de demos se realizará el día de las presentaciones, consiste en la dinámica de “speed dating”, cada squad presentará su demo durante 3 minutos a un grupo de personas, entre ellos los jurados de la Hackathon. Luego de los 3 minutos sonará una chicharra y el grupo de personas rotará al siguiente squad, de esta forma deberán presentar durante una hora. 
+[Prototipo en Figma](https://www.figma.com/proto/RbnRndq7kTJJ3upzwXmAnPQq/Untitled?node-id=0%3A1&scaling=min-zoom&redirected=1)
 
-* Las demos no deben durar más de 3 minutos y deben mostrar el producto y las tecnologías usadas.
-* Los asistentes van a votar por los 4 equipos finalistas, quienes tendrán la oportunidad de hacer su demo a todo el público para poder elegir un ganador. 
+## Historias de Usuarios
+ *  **Historia de usuario n°1**
+ **Como** mujer 33 años que gusta del cine de terror.
+ **Quiero** buscar películas de terror que se estrenaron en 1999.
+ **Para** ver una película de terror de moda en mi adolescencia.
+
+* **Historia de usuario n°2**
+ **Como** hombre de 38 años fans del cine de terror.
+ **Quiero** quiero buscar pelicula de terror por su título, "El Exorcista".
+ **Para** ver sus características, como año de estreno, director, actores.
+
+ * **Historia de usuario n°3**
+ **Como**Hombre 19 años estudiante de cine
+ **Quiero**buscar una película de terror estrenada en 1915
+ **Para** realizar un estudio del genero del terror de aquella época.
+
+ ## Test de usuarios ##
+ Se realizaron test de usuarios con la interfaz en su última etapa.
+ <img src="https://i.ibb.co/44GCXHx/Captura-de-pantalla-63.png" alt="Captura-de-pantalla-63" border="0">
+ Links de Youtube:
+ [Test de Usuario 1](https://youtu.be/E6Z9ih2sy2c)
+[Test de Usuario 2](https://youtu.be/xoTwuWU2e4o) 
+
+ ## Conclusión ##
+ El Mundo del cine es muy amplio, genera multiples usuarios, en específico el género del terror con sus subgéneros como slasher, thriller,horror, supervivencia, gore, entre otros tiene muchos adeptos.
+ Esta experiencia de "Hackathon" que implica trabajo en equipo en un tiempo muy acotado nos hizo comprender mejor el trabajo orientado al usuario y la búsqueda e integración de distintas y nuevas herramientas como las APIS.
+ Nos hubiera gustado seguir desarrollando las ideas pensadas en usuarios específicos de ésta temática tan entretenida y cautivante, como por ejemplo compartir películas seleccionadas, agregar críticas, poder asignar un "puntaje de terror", generar fans por películas, una especie de plataforma dedicada exclusivamente al horror y sus adeptos. 
+ ***
+
+
+
+
+ 
+
+
+
+
