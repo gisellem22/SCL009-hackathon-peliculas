@@ -91,12 +91,11 @@ const showElements = (data, year) => {
 
 const createCard = (myTitle) => {
   cardHTML +=
-    `<div class="card s12 m12 l3 xl3" style="max-width: 540px;"data-toggle="modal" data-target="#${myTitle.imdbID}" >
+    `<div class="card" style="max-width: 540px; "data-toggle="modal" data-target="#${myTitle.imdbID}" >
     <div class="row no-gutters">
-      <div class="col-md-6">
+      <div>
         <img src="${myTitle.Poster}" class="card-img" alt="..."onerror="this.onerror=null;this.src='img/descarga.png';"/>
       </div>
-      <div class="col-md-6">
         <div class="card-body">
           <h5 class="card-title">  ${myTitle.Title}</h5>
           <br>
@@ -105,7 +104,6 @@ const createCard = (myTitle) => {
           <p class="card-text"><small class="text-muted">Released: </small>${myTitle.Released}</p>
 
         </div>
-      </div>
     </div>
   </div>
 
@@ -141,23 +139,21 @@ const createCardOfTitle = (title, year) => {
       createCard(myTitle)
     })
   cardHTML +=
-    `<div class="card s12 m12 l3 xl3" style="max-width: 540px;"data-toggle="modal" data-target="#${myTitle.imdbID}" >
-               <div class="row no-gutters">
-                 <div class="col-md-6">
-                   <img src="${myTitle.Poster}" class="card-img" alt="..."onerror="this.onerror=null;this.src='img/descarga.png';"/>
-                 </div>
-                 <div class="col-md-6">
-                   <div class="card-body">
-                     <h5 class="card-title">  ${myTitle.Title}</h5>
-                     <br>
-                     <p class="card-text"> <small class="text-muted">Director: </small> ${myTitle.Director}</p>
-                     <p class="card-text"><small class="text-muted"> Runtime: </small> ${myTitle.Runtime}</p>
-                     <p class="card-text"><small class="text-muted">Released: </small>${myTitle.Released}</p>
+  `<div class="card" style="max-width: 540px; "data-toggle="modal" data-target="#${myTitle.imdbID}" >
+  <div class="row no-gutters">
+    <div>
+      <img src="${myTitle.Poster}" class="card-img" alt="..."onerror="this.onerror=null;this.src='img/descarga.png';"/>
+    </div>
+      <div class="card-body">
+        <h5 class="card-title">  ${myTitle.Title}</h5>
+        <br>
+        <p class="card-text"> <small class="text-muted">Director: </small> ${myTitle.Director}</p>
+        <p class="card-text"><small class="text-muted"> Runtime: </small> ${myTitle.Runtime}</p>
+        <p class="card-text"><small class="text-muted">Released: </small>${myTitle.Released}</p>
 
-                   </div>
-                 </div>
-               </div>
-             </div>
+      </div>
+  </div>
+</div>
 
              <div class="modal fade" id="${myTitle.imdbID}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                <div class="modal-dialog modal-dialog-centered" role="document">
