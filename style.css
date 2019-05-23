@@ -44,3 +44,15 @@ border-style:solid;
 /* .result{
 margin-top: 15px;
 } */
+.modal-body {
+    background-color: black;
+    /*background-image: url(https://wpamelia.com/wp-content/uploads/2019/02/7644.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    opacity: 0.9;
+    color: rgb(165, 165, 165);
+    text-align: center;
+  
+  }
+
