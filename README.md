@@ -72,7 +72,7 @@ Agregando un modal o realce al elejir una película previa selección por año o
 
 ## Historias de Usuarios
  *  **Historia de usuario n°1**
- **Como** mujer 33 años que gusta del cie de terror.
+ **Como** mujer 33 años que gusta del cine de terror.
  **Quiero** buscar películas de terror que se estrenaron e 1999.
  **Para** ver una película de terror de moda en mi adolescencia.
 
